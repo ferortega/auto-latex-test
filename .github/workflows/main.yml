@@ -14,8 +14,11 @@ jobs:
         with:
           root_file: "*.tex"
 
+      - name: Imagenes para transparencias
+        run: mkdir build && cp *.pdf build
+      
       - name: Deploy production
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: gh-pages
-          folder: .
+          folder: ./build
