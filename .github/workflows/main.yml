@@ -15,7 +15,7 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: PDF
-          path: main.pdf
+          path: build/main.pdf
 
       - name: Deploy production
         uses: JamesIves/github-pages-deploy-action@v4
