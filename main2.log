@@ -3,8 +3,8 @@ entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**main.tex
-(./main.tex
+**main2.tex
+(./main2.tex
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
 (/opt/texlive/texdir/texmf-dist/tex/latex/base/article.cls
@@ -29,8 +29,8 @@ File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count193
 \l__pdf_internal_box=\box51
 )
-(./main.aux)
-\openout1 = `main.aux'.
+(./main2.aux)
+\openout1 = `main2.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
 LaTeX Font Info:    ... okay on input line 3.
@@ -48,8 +48,8 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 3.
 LaTeX Font Info:    ... okay on input line 3.
  [1
 
-{/opt/texlive/texdir/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./main.aux
-)
+{/opt/texlive/texdir/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./main2.au
+x)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
@@ -57,14 +57,14 @@ L3 programming layer <2023-08-29>
  ) 
 Here is how much of TeX's memory you used:
  426 strings out of 474934
- 8164 string characters out of 5761814
+ 8176 string characters out of 5761814
  1917807 words of memory out of 5000000
  22054 multiletter control sequences out of 15000+600000
  558069 words of font info for 36 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 35i,5n,50p,125b,107s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 35i,5n,50p,126b,107s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </opt/texlive/texdir/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb>
-Output written on main.pdf (1 page, 13679 bytes).
+Output written on main2.pdf (1 page, 14305 bytes).
 PDF statistics:
  13 PDF objects out of 1000 (max. 8388607)
  7 compressed objects within 1 object stream
