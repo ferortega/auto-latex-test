@@ -10,16 +10,10 @@ jobs:
         uses: xu-cheng/latex-action@v3
         with:
           root_file: main.tex
-          
-      - name: Upload PDF file
-        uses: actions/upload-artifact@v3
-        with:
-          name: PDF
-          path: build/main.pdf
 
       - name: Deploy production
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: gh-pages
-          folder: ./build/
+          folder: .
           clean-exclude: pr-preview/
