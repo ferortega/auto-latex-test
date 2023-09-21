@@ -19,4 +19,4 @@ jobs:
         with:
           branch: gh-pages
           folder: .
-          clean-exclude: *.pdf
+          clean-exclude: "*.pdf"
